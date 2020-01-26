@@ -57,16 +57,6 @@ void runTests(void)
 
   assertEquals(starX5Expected, starX(5), "starX(5)");
 
-  string starX7Expected =
-      "*     *\n"
-      " *   * \n"
-      "  * *  \n"
-      "   *   \n"
-      "  * *  \n"
-      " *   * \n"
-      "*     *\n";
-
-  assertEquals(starX7Expected, starX(7), "starX(7)");
 
   assertEquals("", starX(0), "starX(0)");
   assertEquals("", starX(2), "starX(2)");
